@@ -1,6 +1,6 @@
 {
   "name": "esformatter-special-bangs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "esformatter plugin: always put a space around exclamation points",
   "repository": "blowery/esformatter-special-bangs",
   "license": "MIT",
