@@ -1,0 +1,35 @@
+{
+  "name": "esformatter-special-bangs",
+  "version": "1.0.0",
+  "description": "esformatter plugin: always put a space around exclamation points",
+  "repository": "blowery/esformatter-special-bangs",
+  "license": "MIT",
+  "author": {
+    "name": "Ben Lowery",
+    "url": "http://b19y.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec test",
+    "watch": "mocha -R spec --watch test"
+  },
+  "keywords": [
+    "esformatter-plugin",
+    "esformatter",
+    "codestyle"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "esformatter": "^0.4.3",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "rocambole-token": "^1.2.1"
+  }
+}
